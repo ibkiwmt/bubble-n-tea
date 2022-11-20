@@ -17,9 +17,7 @@ img {
     justify-content: space-around;
     align-items: flex-end;
 }
-/*menu-page*/
-.menu-deco-top {width: 30%;}
-.menu-deco-bottom {rotate: 180deg;}
+/* ALL PAGES */
 .menu-page, .gallery-page, .info-page h1 {
     font-family: 'FreightBig Pro';
     font-style: normal;
@@ -29,22 +27,35 @@ img {
     letter-spacing: 0.065em;
     color: #000000;
 }
-.menu-descr {
+/* MENU PAGE*/
+.menu-page h1 { margin-top: -5%;}
+.menu-deco-top {
+    width: 30%;
+    margin-left: -70%;
+}
+.menu-deco-bottom {
+    rotate: 180deg;
+    margin-top: -20%;
+}
+.menu-descr {  
     font-family: 'Ika Trial';
     font-style: normal;
+    font-weight: 400;
     font-size: 16px;
-    color: #000000;
-    margin: 20px 40px 0 40px;
+    line-height: 20px;
+    margin: 30px 40px 0 40px;
     border: 1px dashed black;
     padding: 20px;
 }
 .menu-page h2 {
     font-family: 'PP Rader';
     font-style: normal;
+    font-weight: 400;
     font-size: 32px;
+    line-height: 48px;
     letter-spacing: 0.15em;
     color: #000000;
-    margin: 40px 0 0 0%;
+    margin: 50px 0 0 0%;
 }
 ul li {
     font-family: 'Ika Trial';
