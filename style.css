@@ -66,21 +66,48 @@ ul li {
     color: #000000;
     margin: 10px 0 10px 0;
 }
-/*gallery-page*/
+
+/* GALLERY PAGE*/
 .gallery-page h1 {
     margin: 40px;
 }
-.photos {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
+.gallery-deco { margin-top: -40%;}
+/* slideshow */
+.slide{
+    max-width: 1500px;
+    position: relative;
+    margin: auto;
 }
-.photos {
-    width: 30%;
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin: -10% 20% 0 -30%;
+    color: #4C3726;
 }
-.arrow {
-    width: 10%;
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
-.gallery-deco { margin-top: -55%;}
-/*info-page*/
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(70, 70, 70, 0.8);
+}
+/* The bullets indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+.active,
+.dot:hover {
+    background-color: #4C3726;
+}
+/* INFO PAGE */

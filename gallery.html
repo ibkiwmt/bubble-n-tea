@@ -11,10 +11,87 @@
 </head>
 <body class="gallery-page">
     <h1>Gallery</h1>
-    <div class="photos">
-        <img src="images/bnt-1.jpeg" alt="">
-        <img src="images/arrow.png" class="arrow">
+    <div class="image-container">
+        <div class="slide">
+            <img src="images/bnt-1.jpg" style="width:50%">
+        </div>
+        <div class="slide">
+                <img src="images/bnt-2.jpg" style="width:50%">
+        </div>
+        <div class="slide">
+                <img src="images/bnt-2.jpg" style="width:50%">
+        </div>
+        <div class="slide">
+                <img src="images/bnt-3.jpg" style="width:50%">
+        </div>
+        <div class="slide">
+                <img src="images/bnt-4.jpg" style="width:50%">
+        </div>
+        <div class="slide">
+                <img src="images/bnt-5.jpg" style="width:50%">
+        </div>
+        <div class="slide">
+                <img src="images/bnt-6.jpg" style="width:50%">
+        </div>
+        <div class="slide">
+                <img src="images/bnt-7.jpg" style="width:50%">
+        </div>
     </div>
+<!-- Next and previous buttons -->
+        <div>
+        <a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlides(1)">&#10095;</a>
+        </div>
+<!-- Bullets -->
+        <div style="text-align:center">
+            <span class="dot" onclick="activeSlide(1)"></span>
+            <span class="dot" onclick="activeSlide(2)"></span>
+            <span class="dot" onclick="activeSlide(3)"></span>
+            <span class="dot" onclick="activeSlide(4)"></span>
+            <span class="dot" onclick="activeSlide(5)"></span>
+            <span class="dot" onclick="activeSlide(6)"></span>
+            <span class="dot" onclick="activeSlide(7)"></span>
+        </div>
+        
+        <script>
+            var slideIndex = 1;
+            displaySlide(slideIndex);
+        
+            function moveSlides(n) {
+                displaySlide(slideIndex += n);
+            }
+        
+            function activeSlide(n) {
+                displaySlide(slideIndex = n);
+            }
+        
+            /* Main function */
+            function displaySlide(n) {
+                var i;
+                var totalslides =
+                    document.getElementsByClassName("slide");
+                var totaldots =
+                    document.getElementsByClassName("footerdot");
+                
+                if (n > totalslides.length) {
+                    slideIndex = 1;
+                }
+                
+                if (n < 1) {
+                    slideIndex = totalslides.length;
+                }
+                for (i = 0; i < totalslides.length; i++) {
+                    totalslides[i].style.display = "none";
+                }
+                for (i = 0; i < totaldots.length; i++) {
+                    totaldots[i].className =
+                    totaldots[i].className.replace(" active", "");
+                }
+                totalslides[slideIndex - 1].style.display = "block";
+                totaldots[slideIndex - 1].className += " active";
+            }
+        </script>
+        
     <img src="images/drop-3.png" class="gallery-deco">
 </body>
 </html>
