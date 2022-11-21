@@ -8,8 +8,8 @@ img {
     width: 15%;
     margin: -20% 0 0 40%;
 }
-.boba-menu, .boba-gallery, .boba-info, .boba-preorder {
-    width: 10%;
+.boba-1, .boba-2, .boba-3, .boba-4 {
+    width: 15%;
 }
 .contents-box {
     display: flex;
