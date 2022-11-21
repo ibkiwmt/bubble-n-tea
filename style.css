@@ -29,11 +29,11 @@ h1 a {
     color: #000000;
 }
 /* ALL PAGES */
-.menu-page, .gallery-page, .info-page h1 {
+.menu-page, .gallery-page, .info-page, .preorder-page h1 {
     font-family: 'FreightBig Pro';
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     letter-spacing: 0.065em;
     color: #000000;
@@ -150,4 +150,15 @@ ul li {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
+}
+/* PRE-ORDER */
+.preorder-page h1 { margin: 40px;}
+.drop-box {
+    display: flex;
+    width: 25%;
+}
+.drop-2 {
+    transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
 }
