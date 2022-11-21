@@ -6,7 +6,7 @@ img {
 }
 .logo {
     width: 15%;
-    margin: -40% 0 0 40%;
+    margin: -20% 0 0 40%;
 }
 .boba-menu, .boba-gallery, .boba-info, .boba-preorder {
     width: 10%;
@@ -16,6 +16,17 @@ img {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
+    font-family: 'FreightBig Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 51px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+h1 a {
+    text-decoration: none;
+    color: #000000;
 }
 /* ALL PAGES */
 .menu-page, .gallery-page, .info-page h1 {
