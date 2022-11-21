@@ -131,7 +131,7 @@ ul li {
     display: flex;
     width: 75%;
     justify-content: space-around;
-
+    align-items: center;
 }
 .info-page h2 {
     font-family: 'PP Rader';
