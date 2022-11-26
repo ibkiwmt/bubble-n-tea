@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 247 324.8">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+      }
+
+      .cls-3 {
+        fill: #d4e7b0;
+      }
+
+      .cls-4 {
+        fill: #5b3e2b;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="123.73" y1="229.1" x2="123.73" y2="14.6" gradientTransform="translate(0 337.6) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b8d88c"/>
+      <stop offset=".12" stop-color="#b3d688"/>
+      <stop offset=".25" stop-color="#a7d27e"/>
+      <stop offset=".39" stop-color="#92cb6e"/>
+      <stop offset=".52" stop-color="#75c157"/>
+      <stop offset=".6" stop-color="#60ba46"/>
+      <stop offset="1" stop-color="#8a5d3b"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1"/>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_2-2" data-name="Layer 2">
+      <g id="cup">
+        <path class="cls-1" d="M123.5,64.3c15.44,0,30.22,.22,43.83,.62v17.76c-13.61,.4-28.39,.62-43.83,.62-19.78,0-38.47-.36-55.02-1-37.17-1.44-63.59-4.29-67.48-7.65h0c-.33-.28-.49-.56-.49-.85,0-5.25,55.07-9.5,123-9.5h0Z"/>
+        <path class="cls-1" d="M246.5,73.8c0,.29-.17,.57-.49,.85-3.4,2.96-24.32,5.52-54.68,7.08v-15.86c33.25,1.7,55.17,4.62,55.17,7.93h0Z"/>
+        <path class="cls-1" d="M246.5,74.65c-.1,1.69-.69,5.39-3.77,6.15-2.34,.58-3.64,1.33-4.31,1.86l-17.92,195.93c-2.37,25.89-24.08,45.71-50.08,45.71H76.93c-26.01,0-47.73-19.83-50.08-45.74L9.03,82.66c-.67-.53-1.96-1.28-4.28-1.86-3.06-.76-3.65-4.46-3.75-6.15,3.89,3.36,30.31,6.21,67.48,7.65,16.55,.64,35.24,1,55.02,1s38.47-.36,55.02-1c37.2-1.44,63.63-4.29,67.49-7.65h.49Z"/>
+        <path class="cls-1" d="M9.75,83.2c8.12,.63,7.6,7.81,15.78,8.37,8.18,.54,8.62-6.65,16.75-6.18,8.13,.44,7.77,7.63,15.96,8.02,8.19,.35,8.47-6.84,16.61-6.55,8.14,.26,7.94,7.46,16.13,7.66,8.19,.17,8.31-7.03,16.46-6.92,8.14,.08,8.1,7.28,16.3,7.29,8.2,0,8.16-7.21,16.3-7.29,8.14-.11,8.26,7.09,16.46,6.92,8.19-.2,7.99-7.4,16.13-7.66,8.14-.29,8.42,6.91,16.61,6.55,8.19-.38,7.83-7.57,15.96-8.02,8.14-.47,8.58,6.72,16.77,6.18,8.18-.57,7.66-7.75,15.79-8.37"/>
+      </g>
+      <ellipse id="tea-top-2" class="cls-3" cx="123.73" cy="108.25" rx="110" ry="9.25"/>
+      <path id="tea-2" class="cls-5" d="M233.73,108.5l-15.25,163.97c0,27.91-22.16,50.53-49.49,50.53H77.97c-27.33,0-49.49-22.62-49.49-50.53L13.73,108.5c0,4.97,49.25,9,110,9s110-4.03,110-9Z"/>
+      <path id="straw" class="cls-2" d="M191.33,.5V291.11c0,.25-.1,.49-.27,.66l-22.14,22.14c-.58,.58-1.59,.17-1.59-.66V.5h24Z"/>
+      <g>
+        <circle class="cls-4" cx="81.33" cy="249.5" r="8.5"/>
+        <circle class="cls-4" cx="155.23" cy="304" r="7"/>
+        <circle class="cls-4" cx="155.73" cy="266.5" r="6.5"/>
+        <circle class="cls-4" cx="54.73" cy="272.5" r="7.5"/>
+        <circle class="cls-4" cx="117.83" cy="304" r="7"/>
+        <circle class="cls-4" cx="201.83" cy="259" r="7"/>
+        <circle class="cls-4" cx="115.23" cy="262" r="8"/>
+        <circle class="cls-4" cx="194.23" cy="285" r="7"/>
+        <ellipse class="cls-4" cx="131.23" cy="283.5" rx="6" ry="5.5"/>
+        <ellipse class="cls-4" cx="99.23" cy="282.5" rx="6" ry="5.5"/>
+        <ellipse class="cls-4" cx="72.73" cy="292.5" rx="8.5" ry="7.5"/>
+        <circle class="cls-4" cx="135.23" cy="244" r="8"/>
+      </g>
+    </g>
+  </g>
+</svg>

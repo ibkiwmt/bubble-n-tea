@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 247 324.8">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+      }
+
+      .cls-3 {
+        fill: #f7e2bc;
+      }
+
+      .cls-4 {
+        fill: #5b3e2b;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="123.6" y1="114.66" x2="123.6" y2="318.18" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7dca7"/>
+      <stop offset=".28" stop-color="#f4d9a4"/>
+      <stop offset=".45" stop-color="#edd19d"/>
+      <stop offset=".59" stop-color="#e1c291"/>
+      <stop offset=".72" stop-color="#cfae80"/>
+      <stop offset=".83" stop-color="#b99469"/>
+      <stop offset=".94" stop-color="#9e744e"/>
+      <stop offset="1" stop-color="#8a5d3b"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1"/>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="boba-1">
+      <g id="cup">
+        <path class="cls-1" d="M123.5,64.3c15.4,0,30.2,.2,43.8,.6v17.8c-13.6,.4-28.4,.6-43.8,.6-19.8,0-38.5-.4-55-1-37.2-1.4-63.6-4.3-67.5-7.7h0c-.3-.3-.5-.6-.5-.8,0-5.2,55-9.5,123-9.5h0Z"/>
+        <path class="cls-1" d="M246.5,73.8c0,.3-.2,.6-.5,.8-3.4,3-24.3,5.5-54.7,7.1v-15.9c33.3,1.8,55.2,4.7,55.2,8h0Z"/>
+        <path class="cls-1" d="M246.5,74.6c-.1,1.7-.7,5.4-3.8,6.2-2.3,.6-3.6,1.3-4.3,1.9l-17.9,195.9c-2.4,25.9-24.1,45.7-50.1,45.7H76.9c-26,0-47.7-19.8-50.1-45.7L9,82.7c-.7-.5-2-1.3-4.3-1.9-3.1-.8-3.7-4.5-3.8-6.2,3.9,3.4,30.3,6.2,67.5,7.7,16.6,.6,35.2,1,55,1s38.5-.4,55-1c37.2-1.4,63.6-4.3,67.5-7.7h.6Z"/>
+        <path class="cls-1" d="M9.7,83.2c8.1,.6,7.6,7.8,15.8,8.4,8.2,.5,8.6-6.7,16.8-6.2,8.1,.4,7.8,7.6,16,8s8.5-6.8,16.6-6.6c8.1,.3,7.9,7.5,16.1,7.7,8.2,.2,8.3-7,16.5-6.9,8.1,.1,8.1,7.3,16.3,7.3s8.2-7.2,16.3-7.3c8.1-.1,8.3,7.1,16.5,6.9,8.2-.2,8-7.4,16.1-7.7,8.1-.3,8.4,6.9,16.6,6.6,8.2-.4,7.8-7.6,16-8,8.1-.5,8.6,6.7,16.8,6.2,8.2-.6,7.7-7.8,15.8-8.4"/>
+      </g>
+      <path id="tea-top" class="cls-3" d="M233.9,105.4c0,.2-.1,.4-.4,.5-4.5,3.3-52,5.9-109.9,5.9s-105.6-2.6-109.9-5.9c-.2-.2-.3-.3-.3-.5,0-3.5,49.3-6.4,110.2-6.4s110.3,2.9,110.3,6.4Z"/>
+      <path id="tea" class="cls-5" d="M233.8,105.9l-15.5,171.6c-2.3,25.8-24.9,45.5-51.9,45.5H82c-26.8,0-49.3-19.5-51.8-45.1L13.4,105.9h0c4.3,3.3,51.9,5.9,109.9,5.9s105.4-2.6,109.9-5.9h.6Z"/>
+      <path id="straw" class="cls-2" d="M191.3,.5V291.1c0,.2-.1,.5-.3,.7l-22.1,22.1c-.6,.6-1.6,.2-1.6-.7V.5h24Z"/>
+      <g id="bubbles">
+        <circle class="cls-4" cx="81.3" cy="249.5" r="8.5"/>
+        <circle class="cls-4" cx="117.8" cy="265" r="7"/>
+        <circle class="cls-4" cx="155.3" cy="264.5" r="6.5"/>
+        <circle class="cls-4" cx="65.3" cy="289.5" r="7.5"/>
+        <circle class="cls-4" cx="117.8" cy="304" r="7"/>
+        <circle class="cls-4" cx="201.8" cy="259" r="7"/>
+        <circle class="cls-4" cx="162.8" cy="302" r="8"/>
+        <circle class="cls-4" cx="182.8" cy="279" r="7"/>
+        <ellipse class="cls-4" cx="136.8" cy="283.5" rx="6" ry="5.5"/>
+        <ellipse class="cls-4" cx="53.8" cy="266.5" rx="6" ry="5.5"/>
+        <ellipse class="cls-4" cx="91.3" cy="279.5" rx="8.5" ry="7.5"/>
+        <circle class="cls-4" cx="128.8" cy="241" r="8"/>
+      </g>
+    </g>
+  </g>
+</svg>
