@@ -140,34 +140,34 @@ ul li {
 }
 /* INFO PAGE */
 .info-page h1 {
-    margin: 40px;
+    margin: 40px 0 70px 0;
 }
 .info-box {
-    position: relative;
+    position: absolute;
     margin: auto;
+    width: 80%;
     display: flex;
-    width: 75%;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 .info-page h2 {
     font-family: 'PP Rader';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 48px;
     letter-spacing: 0.15em;
     color: #000000;
-    margin: 15% 0 5% 0;
 }
 .info-page p {
     font-family: 'Ika Trial';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
     color: #000000;
 }
+.location { flex-grow: 2; }
+.hours { flex-grow: 1;}
 /* PRE-ORDER */
 .preorder-page h1 { margin: 40px;}
 .drop-box {
