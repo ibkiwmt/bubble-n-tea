@@ -190,7 +190,26 @@ ul li {
 .drop-2 {
     transform: scaleX(-1);
 }
+.bigbox {
+font-family: 'PP Rader';
+font-style: normal;
+font-size: 25px;
+line-height: 48px;
+letter-spacing: 0.15em;
+color: #000000;
+}
+.bigbox {
+    display: flex;
+}
 .left-box {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    margin: 0 20% 0 10%;
+}
+.right-box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    margin: 0 10% 0 0;
 }
