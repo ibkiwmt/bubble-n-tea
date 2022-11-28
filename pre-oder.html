@@ -17,18 +17,40 @@
     <section class="bigbox">
         <div class="left-box">
             <label for="name">Name</label>
-            <input type="yourname" id="name" name="yourname"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <input type="text" id="name" name="name" required>
             <br>
             <label for="phone#">Phone#</label>
             <input type="phonenum" id="phone#" name="phone#"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
             <br>
             <label for="email">Email</label>
-            <input type="emailadress" id="email" name="email"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <input type="email" id="email"
+            pattern=".+@globex\.com" size="30" required>
             <br>
             <label for="time">Pickup Time</label>
+            <form action="/action_page.php">
+                <label for="times"></label>
+                <select name="times" id="times">
+                  <option value="picktime">pick time</option>
+                  <option value="11">11 am</option>
+                  <option value="1130">11:30 am</option>
+                  <option value="12">12 am</option>
+                  <option value="12:30">12:30 am</option>
+                  <option value="1">1 pm</option>
+                  <option value="130">1:30 pm</option>
+                  <option value="2">2 pm</option>
+                  <option value="2:30">2:30 pm</option>
+                  <option value="3">3 pm</option>
+                  <option value="330">3:30 pm</option>
+                  <option value="4">4 pm</option>
+                  <option value="430">4:30 pm</option>
+                  <option value="5">5 pm</option>
+                  <option value="530">5:30 pm</option>
+                  <option value="6">6 pm</option>
+                  <option value="630">6:30 pm</option>
+                  <option value="7">7 pm</option>
+                </select>
+              </form>
         </div>
 
         <div class="right-box">
