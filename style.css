@@ -239,9 +239,8 @@ nav {
 }
 span {
     padding : 30px;
-    background : #4C3726;
     opacity: 70%;
-    color : white;
+    color : black;
     font-size : 1.2em;
     cursor : pointer;
     display: block;
