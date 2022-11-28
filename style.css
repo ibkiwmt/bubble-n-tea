@@ -185,10 +185,12 @@ ul li {
 .preorder-page h1 { margin: 40px;}
 .drop-box {
     display: flex;
-    width: 25%;
+    width: 40%;
 }
 .drop-2 {
     transform: scaleX(-1);
-	filter: FlipH;
-	-ms-filter: "FlipH";
+}
+.left-box {
+    display: flex;
+    flex-direction: column;
 }
