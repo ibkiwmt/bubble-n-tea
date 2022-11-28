@@ -205,7 +205,7 @@ color: #000000;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    margin: 0 20% 0 10%;
+    margin: 0 10% 0 10%;
 }
 .right-box {
     display: flex;
@@ -213,3 +213,21 @@ color: #000000;
     flex-grow: 2;
     margin: 0 10% 0 0;
 }
+input[type="checkbox"] {
+    appearance: none;
+    border: solid;
+    margin: 0;
+  }
+  
+  input[type="checkbox"]:checked {
+    background: #A0BC7B;
+  }
+  
+  @media (pointer: fine) {
+    input[type="checkbox"] {
+      width: 15px;
+      height: 15px;
+      border-width: 1px;
+      border-color: #4C3726;
+    }
+  }

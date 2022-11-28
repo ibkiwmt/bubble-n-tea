@@ -55,22 +55,54 @@
 
         <div class="right-box">
             <label for="order#">Order #1</label>
+            <form action="/action_page.php">
+                <label for="menues"></label>
+                <select name="menus" id="menus">
+                  <option value="picktime">pick time</option>
+                  <option value="11">11 am</option>
+                  <option value="1130">11:30 am</option>
+                  <option value="12">12 am</option>
+                  <option value="12:30">12:30 am</option>
+                  <option value="1">1 pm</option>
+                  <option value="130">1:30 pm</option>
+                  <option value="2">2 pm</option>
+                  <option value="2:30">2:30 pm</option>
+                  <option value="3">3 pm</option>
+                  <option value="330">3:30 pm</option>
+                  <option value="4">4 pm</option>
+                  <option value="430">4:30 pm</option>
+                  <option value="5">5 pm</option>
+                  <option value="530">5:30 pm</option>
+                  <option value="6">6 pm</option>
+                  <option value="630">6:30 pm</option>
+                  <option value="7">7 pm</option>
+                </select>
             <br>
             <label for="sweetness">Sweetness</label>
             <br>
             <label for="milk">Milk Options (choose one)</label>
-            <ul class="milk">
-                <li>Whole Milk</li>
-                <li>Coconut</li>
-                <li>Almond</li>
-                <li>Soy</li>
-            </ul>
+            <div class="milk-opt">
+                <input id="choice-1" type="checkbox"/>
+                <label for choice-1>Whole Milk</label>
+                <br>
+                <input id="choice-2" type="checkbox"/>
+                <label for choice-2>Coconut</label>
+                <br>
+                <input id="choice-3" type="checkbox"/>
+                <label for choice-3>Almond</label>
+                <br>
+                <input id="choice-4" type="checkbox"/>
+                <label for choice-4>Soy</label>
+            </div>
             <br>
             <label for="topping">Topping</label>
-            <ul class="topping-choice">
-                <li>Bubbles</li>
-                <li>Grass Jelly</li>
-            </ul>
+            <div class="tupping-opt">
+                <input id="choice-1" type="checkbox"/>
+                <label for choice-1>Bubbles</label>
+                <br>
+                <input id="choice-2" type="checkbox"/>
+                <label for choice-2>Grass Jelly</label>
+            </div>
         </div>
     </section> 
 </body>
