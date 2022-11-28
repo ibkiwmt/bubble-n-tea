@@ -211,7 +211,7 @@ color: #000000;
     display: flex;
     flex-direction: column;
     flex-grow: 2;
-    margin: 0 10% 0 0;
+    margin: 0 10% 0 10%;
 }
 input[type="checkbox"] {
     appearance: none;
@@ -231,7 +231,7 @@ input[type="checkbox"] {
       border-color: #4C3726;
     }
   }
-li a {text-decoration : none; color : #2d2f31;}
+li a {text-decoration : none; color : rgb(55, 55, 55);}
 nav {
     width : 300px; 
     background: #ffffff;
@@ -239,9 +239,8 @@ nav {
 }
 span {
     padding : 30px;
-    opacity: 70%;
-    color : black;
-    font-size : 1.2em;
+    color : rgb(55, 55, 55);
+    font-size: 16px;
     cursor : pointer;
     display: block;
 }
