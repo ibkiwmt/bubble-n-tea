@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <link href="script.js" rel="stylesheet">
     <link rel="stylesheet" href="meyer_reset.css">  
     <title>Pre-Order</title>
 </head>
@@ -57,7 +58,7 @@
             <label for="order#">Order #1</label>
             <nav>
                 <label for="menus"><span>your drink choice</span></label>
-                <input type="checkbox" id="menus">
+                <input type="checkbox" id="choice">
                 <ul class="slide">
                   <li><a href="#">Classic Black</a></li>
                   <li><a href="#">Thai Tea</a></li>
@@ -72,7 +73,10 @@
                 </ul>
             </nav>
             <br>
-            <label for="sweetness">Sweetness</label>
+            <div class="sweetness-slider">Sweetness
+                <input type="range" min="0" max="100" value="50" class="rangeslider" id="myRange">
+            </div>
+
             <br>
             <label for="milk">Milk Options (choose one)</label>
             <div class="milk-opt">
