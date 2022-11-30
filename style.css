@@ -101,14 +101,10 @@ ul li {
   margin-top: -40%;
 }
 /* slideshow */
-.slideshow{
+.slideshow { 
     max-width: 1500px;
     position: relative;
     margin: auto;
-.slidesh {
-  max-width: 1500px;
-  position: relative;
-  margin: auto;
 }
 /* Next & previous buttons */
 .prev,
@@ -127,9 +123,6 @@ ul li {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     color: rgba(70, 70, 70, 0.8);
-.prev:hover,
-.next:hover {
-  background-color: rgba(70, 70, 70, 0.8);
 }
 /* The bullets indicators */
 .dot {
