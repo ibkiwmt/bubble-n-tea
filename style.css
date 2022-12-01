@@ -295,15 +295,16 @@ line-height: 20px;
 text-align: center;
 margin-top: -20%;
 }
-.item3 {
+.submit a {
 font-family: 'PP Rader';
 font-style: normal;
 font-size: 32px;
 letter-spacing: 0.15em;
 text-decoration: none;
-color: #000000;
+color:#478c34;
 text-align: center;
-margin-top: -5%;
+margin-top: -25%; margin-left: 46%;
+position: absolute;
 }
 .drop-6 { margin-top: -25%;}
 input[type='checkbox'] {
