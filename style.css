@@ -260,6 +260,17 @@ height: 25px; /* Slider handle height */
 background: #6f8355; /* Green background */
 cursor: pointer; /* Cursor on hover */
 }
+.preorder-page a {
+  text-decoration: none;
+  color: #000000;
+  border: #000000;
+  border-style: solid;
+  text-align: center;
+  border-radius: 20%;
+  width: 100px;
+  background-color: #F8B15F;
+  margin: 10% 0 20% -30%;
+}
 
 /* ORDER CHOICE */
 li a {text-decoration : none; color : rgb(55, 55, 55);}
@@ -351,7 +362,7 @@ span::after {
 #menus:checked + .slide {
   height: 300px;
 }
-
+/* MOVING BUBBLES */
 #bubbles-2 .cls-4,
 #bubbles .cls-4 {
   animation-name: bubbles;
