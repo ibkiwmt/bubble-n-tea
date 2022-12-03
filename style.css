@@ -260,7 +260,8 @@ height: 25px; /* Slider handle height */
 background: #6f8355; /* Green background */
 cursor: pointer; /* Cursor on hover */
 }
-.preorder-page a {
+
+.submit-button a{
   text-decoration: none;
   color: #000000;
   border: #000000;
@@ -273,7 +274,7 @@ cursor: pointer; /* Cursor on hover */
 }
 
 /* ORDER CHOICE */
-li a {text-decoration : none; color : rgb(55, 55, 55);}
+
 
 /*LAST PAGE*/
 .item1 {
