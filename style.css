@@ -307,12 +307,14 @@ margin-top: -25%; margin-left: 46%;
 position: absolute;
 }
 .drop-6 { margin-top: -25%;}
+
 input[type='checkbox'] {
   appearance: none;
   border: solid;
   margin: 0;
 }
 
+/* DROPDOWN 
 input[type='checkbox']:checked {
   background: #a0bc7b;
 }
@@ -362,7 +364,8 @@ span::after {
 }
 #menus:checked + .slide {
   height: 300px;
-}
+} 
+*/
 /* MOVING BUBBLES */
 #bubbles-2 .cls-4,
 #bubbles .cls-4 {
