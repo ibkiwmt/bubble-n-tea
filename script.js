@@ -1,8 +1,11 @@
-var rangeslider = document.getElementById("myRange");
-var output = document.getElementById("demo");
-output.innerHTML = rangeslider.value; // Display the default slider value
+const teasSelect = document.getElementById("teas")
+const teas = ['Classic Black', 'Thai Tea', 'Matcha Tea', 'Earl Gray Tea', 'Cocoa Mint Tea',
+'Jasmin Tea', 'Matcha Smoothie', 'Coconuts Smoothie', 'Thai Tea Smoothie', 'Chocolate Smoothie'];
 
-// Update the current slider value (each time you drag the slider handle)
-rangeslider.oninput = function() {
-  output.innerHTML = this.value;
-}
+(function populateTeas(){
+  for(let i = 0; i < teas.length; i++){
+    const optiion = document.createElement('option');
+    optiion.textContent = teas[i];
+    teasSelect.appendChild(optiion);
+  }
+})();

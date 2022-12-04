@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <link href="script.js" rel="stylesheet">
     <link rel="stylesheet" href="meyer_reset.css">  
     <title>Pre-Order</title>
 </head>
@@ -55,28 +54,15 @@
         </div>
 
         <div class="right-box">
-            <label for="order#">Order #1</label>
-            <nav>
-                <label for="menus"><span>your drink choice</span></label>
-                <input type="checkbox" id="choice">
-                <ul class="slide">
-                  <li class="teas"><a href="#">Classic Black</a></li>
-                  <li class="teas"><a href="#">Thai Tea</a></li>
-                  <li class="teas"><a href="#">Matcha Tea</a></li>
-                  <li class="teas"><a href="#">Earl Gray Tea</a></li>
-                  <li class="teas"><a href="#">Cocoa Mint Tea</a></li>
-                  <li class="teas"><a href="#">Jasmin Tea</a></li>
-                  <li class="teas"><a href="#">Matcha Smoothie</a></li>
-                  <li class="teas"><a href="#">Coconuts Smoothie</a></li>
-                  <li class="teas"><a href="#">Thai Tea Smoothie</a></li>
-                  <li class="teas"><a href="#">Chocolate Smoothie</a></li>
-                </ul>
-            </nav>
+            <form>
+             <label for="order#">Order #1</label>
+             <span><label for="tes">your drink choice</label>
+             <select name="teas" id="teas"></select></span>
+             </form>
             <br>
             <div class="sweetness-slider">Sweetness
                 <input type="range" min="0" max="100" value="50" class="rangeslider" id="myRange">
             </div>
-
             <br>
             <label for="milk">Milk Options (choose one)</label>
             <div class="milk-opt">
@@ -103,5 +89,6 @@
             </div>
             <div class="submit-button"><a href="ordersubmited.html">Submit</a></div>
     </section> 
+    <script src="script.js"></script>
 </body>
 </html>
