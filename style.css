@@ -212,6 +212,15 @@ ul li {
   margin: 0 10% 0 10%;
 }
 /* MILK TOPPING CHECKBOX */
+.choice {
+font-family: 'Ika Trial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: #000000;
+}
 input[type="checkbox"] {
     appearance: none;
     border: solid;
@@ -231,36 +240,11 @@ input[type="checkbox"]:checked {
     }
   }
 /* SWEETNESS */
-.sweetness-slider { width: 40%; }
-  /* The slider itself */
-.rangeslider {
-    -webkit-appearance: none;  /* Override default CSS styles */
-    appearance: none;
-    width: 100%; /* Full-width */
-    height: 20px; /* Specified height */
-    background: #d3d3d3; /* Grey background */
-    opacity: 1; /* Set transparency (for mouse-over effects on hover) */
-    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-    transition: opacity .2s;
+.sweetness-slider{
+  width: 30px;
+  top: 100%;
+  left: 100%;
 }
-/* Mouse-over effects */
-.slider:hover { opacity: 1; /* Fully shown on mouse-over */}
-/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
-.slider::-webkit-slider-thumb {
--webkit-appearance: none; /* Override default look */
-appearance: none;
-width: 25px; /* Set a specific slider handle width */
-height: 25px; /* Slider handle height */
-background: #A0BC7B; /* Green background */
-cursor: pointer;
-}
-.slider::-moz-range-thumb {
-width: 25px; /* Set a specific slider handle width */
-height: 25px; /* Slider handle height */
-background: #6f8355; /* Green background */
-cursor: pointer; /* Cursor on hover */
-}
-
 .submit-button a{
   text-decoration: none;
   color: #000000;
@@ -273,8 +257,14 @@ cursor: pointer; /* Cursor on hover */
   margin: 10% 0 20% -30%;
 }
 
-/* ORDER CHOICE */
-
+/* DROPDOWN */
+form span{
+  display: block;
+  margin-top: 20px;
+}
+.right-box form{
+  width: 300px;
+}
 
 /*LAST PAGE*/
 .item1 {
@@ -313,14 +303,6 @@ input[type='checkbox'] {
   appearance: none;
   border: solid;
   margin: 0;
-}
-/* DROPDOWN */
-form span{
-  display: block;
-  margin-top: 20px;
-}
-.right-box form{
-  width: 300px;
 }
 
 /* MOVING BUBBLES */

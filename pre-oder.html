@@ -61,31 +61,33 @@
              </form>
             <br>
             <div class="sweetness-slider">Sweetness
-                <input type="range" min="0" max="100" value="50" class="rangeslider" id="myRange">
+                <input type="range" min="0" max="100" value="1" step="50" class="n n3"
+                oninput="rangeValue.innerText  = this.value">
+                <p id="rangeValue">0%</p>
             </div>
             <br>
             <label for="milk">Milk Options (choose one)</label>
             <div class="milk-opt">
                 <input id="choice-1" type="checkbox"/>
-                <label for choice-1>Whole Milk</label>
+                <label class="choice">Whole Milk</label>
                 <br>
                 <input id="choice-2" type="checkbox"/>
-                <label for choice-2>Coconut</label>
+                <label class="choice">Coconut</label>
                 <br>
                 <input id="choice-3" type="checkbox"/>
-                <label for choice-3>Almond</label>
+                <label class="choice">Almond</label>
                 <br>
                 <input id="choice-4" type="checkbox"/>
-                <label for choice-4>Soy</label>
+                <label class="choice">Soy</label>
             </div>
             <br>
             <label for="topping">Topping (+$0.75)</label>
             <div class="tupping-opt">
                 <input id="choice-1" type="checkbox"/>
-                <label for choice-1>Bubbles</label>
+                <label class="choice">Bubbles</label>
                 <br>
                 <input id="choice-2" type="checkbox"/>
-                <label for choice-2>Grass Jelly</label>
+                <label class="choice">Grass Jelly</label>
             </div>
             <div class="submit-button"><a href="ordersubmited.html">Submit</a></div>
     </section> 
