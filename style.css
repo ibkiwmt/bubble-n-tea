@@ -15,12 +15,13 @@
   color: #000000;
 }
 /* HOME PAGE */
-img {
+.drop-1 {
   width: 100%;
+  margin-bottom: -20%;
 }
 .logo {
   width: 15%;
-  margin: -20% 0 0 40%;
+  position: relative; left: 40%; z-index: 100;
 }
 .boba-1, .boba-2, .boba-3, .boba-4 {
     width: 20%;
@@ -28,19 +29,27 @@ img {
 .home-page h1 {
     font-family: 'FreightBig Pro';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 30px;
     text-align: center;
     letter-spacing: 0.065em;
-    position: absolute;
-    margin: 200px 0 0 40px ;
+    position: relative;
 }
-.boba-3 h1 { margin: 200px 0 0 40px;}
-.boba-4 h1 { margin: 200px 0 0 40px;}
 .contents-box {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  margin-top: 5%;
+}
+@media screen and (max-width: 768px){
+  .contents-box {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-page h1 {
+    font-size: 17px;
+  }
 }
 h1 a {
   text-decoration: none;
