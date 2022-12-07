@@ -71,6 +71,7 @@ h1 a {
 .menu-deco-bottom {
   rotate: 180deg;
   margin-top: -20%;
+  width: 100%;
 }
 .menu-descr {
   font-family: 'Ika Trial';
